@@ -69,7 +69,6 @@ public class LargestPalindromeProduct {
             }
 
             if (!(digits[i] == digits[length - i - 1])){
-                System.out.println(String.format("%s is not a palindrome!", sum));
                 return false;
             }
         }
